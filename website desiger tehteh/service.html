@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Top K-Drama</title>  
+    <style>  
+        .drama-card {  
+            position: relative;  
+            overflow: hidden;  
+            margin: 10px;  
+        }  
+        .drama-card img {  
+            width: 100%;  
+            height: auto;  
+        }  
+        .drama-episode {  
+            position: absolute;  
+            bottom: 10px;  
+            left: 10px;  
+            background: rgba(0, 0, 0, 0.6);  
+            color: white;  
+            padding: 5px;  
+        }  
+        .carousel-item {  
+            display: flex;  
+            justify-content: center;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<div class="container mt-4">  
+    <h2>Top K-Drama</h2>  
+    <div id="dramaCarousel" class="carousel slide" data-ride="carousel">  
+        <div class="">  
+            <div class="carousel-item active">  
+                <div class="drama-card">  
+                    <img src="/image/1.jpg" alt="R.O.P">  
+                    <div class="drama-episode">EP 16</div>  
+                </div>  
+                <div class="drama-card">  
+                    <img src="/image/2.jpg" alt="Queen of Tears">  
+                    <div class="drama-episode">Special Ep</div>  
+                </div>  
+                <div class="drama-card">  
+                    <img src="/image/3.jpg" alt="All of Us Are Dead">  
+                    <div class="drama-episode">EP 12</div>  
+                </div>  
+            </div>  
+            <div class="carousel-item">  
+                <div class="drama-card">  
+                    <img src="/image/5.jpg" alt="A Business Proposal">  
+                    <div class="drama-episode">EP 13</div>  
+                </div>  
+                <div class="drama-card">  
+                    <img src="/image/6.jpg" alt="Twinkling Watermelon">  
+                    <div class="drama-episode">EP 16</div>  
+                </div>  
+            </div>  
+        </div>  
+        <a class="carousel-control-prev" href="#dramaCarousel" role="button" data-slide="prev">  
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+            <span class="sr-only">Previous</span>  
+        </a>  
+        <a class="carousel-control-next" href="#dramaCarousel" role="button" data-slide="next">  
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+            <span class="sr-only">Next</span>  
+        </a>  
+    </div>  
+</div>  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>

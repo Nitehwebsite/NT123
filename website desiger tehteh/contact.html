@@ -1,0 +1,397 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>NitehDesigerWEb</title>  
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>  
+        .hero {  
+            background: linear-gradient(to right, #f5a623, #f12711);  
+            color: white;  
+            padding: 20px 0;
+        }
+        .carousel-inner img{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+        .service-card {  
+            margin: 20px;  
+            padding: 20px;  
+            text-align: center;  
+            background-color: #f8f9fa;  
+            border: 1px solid #e0e0e0;  
+        }  
+        .service-icon {  
+            font-size: 40px;  
+            color: #28a745; /* Green color */  
+        }  
+        .footer {  
+            background: linear-gradient(to right, #f5a623, #f12711);  
+            color: #fff;  
+            padding: 40px 0;  
+        }  
+        .footer a {  
+            color: #000000;  
+            text-decoration: none;  
+        }  
+        .footer a:hover {  
+            text-decoration: underline;  
+        }  
+        .footer-icons {  
+            font-size: 24px;  
+        }  
+        .footer {  
+            background-color: #f8f9fa;  
+            padding: 20px;  
+        }
+        /* From Uiverse.io by akshat-patel28 */ 
+.form-container {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+.input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;
+}
+
+.page-link {
+  text-decoration: underline;
+  margin: 0;
+  text-align: end;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+.page-link-label {
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.page-link-label:hover {
+  color: #000;
+}
+
+.form-btn {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+.sign-up-label {
+  margin: 0;
+  font-size: 10px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.apple-login-button,
+    .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  gap: 5px;
+}
+
+.apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.google-login-button {
+  border: 2px solid #747474;
+}
+
+.apple-icon,
+    .google-icon {
+  font-size: 18px;
+  margin-bottom: 1px;
+}  
+/* From Uiverse.io by vinodjangid07 */ 
+.InputContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-left: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 170px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: rgb(255, 81, 0);
+}
+
+.labelforsearch {
+  cursor: text;
+  padding: 0px 12px;
+}
+
+.searchIcon {
+  width: 13px;
+}
+
+.border {
+  height: 40%;
+  width: 1.3px;
+  background-color: rgb(223, 223, 223);
+}
+
+.micIcon {
+  width: 12px;
+}
+
+.micButton {
+  padding: 0px 15px 0px 12px;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+
+.searchIcon path {
+  fill: rgb(114, 114, 114);
+}
+
+.micIcon path {
+  fill: rgb(255, 81, 0);
+}
+
+.micButton:hover {
+  background-color: rgb(255, 230, 230);
+  transition-duration: .3s;
+}
+
+    </style>  
+</head>  
+<body>
+    <!-- navstar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">  
+        <div class="container">
+            <a class="navbar-brand text-success" href="#">
+                <img style="width: 100px;" src="/image/logontt.png" alt="">
+              </a>  
+            <a class="navbar-brand" style="font-size: 30px;" href="webteh.html">NitehDEsigner</a>  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
+                <span class="navbar-toggler-icon"></span>  
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarNav">  
+                <ul class="navbar-nav ml-auto">  
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#">Custom Poster</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>  
+                </ul>  
+            </div>
+            <!-- From Uiverse.io by vinodjangid07 --> 
+<div class="InputContainer">
+    <input type="text" name="text" class="input" id="input" placeholder="Search">
+    
+    <label for="input" class="labelforsearch">
+  <svg viewBox="0 0 512 512" class="searchIcon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+  </label>
+  <div class="border"></div>
+  
+  <button class="micButton"><svg viewBox="0 0 384 512" class="micIcon"><path d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"></path></svg>
+  </button>
+  
+  </div>
+        </div> 
+        <!-- navend  -->
+    </nav>  
+
+    <div class="container mt-5">  
+        <h1 class="text-center">Contact Us</h1>  
+        <h1 class="text-center" style="margin-top: 110px;">Contact to NitehDesiger</h1>
+        <p class="text-center">Any questions or remarks? Just write us a message!</p>  
+        <!-- From Uiverse.io by akshat-patel28 --> 
+ <div class="form-container ml-">
+    <p class="title">Welcome</p>
+    <form class="form">
+      <input type="email" class="input" placeholder="Email">
+      <input type="password" class="input" placeholder="Password">
+      <p class="page-link">
+        <span class="page-link-label">Forgot Password?</span>
+      </p>
+      <button class="form-btn">Log in</button>
+    </form>
+    <p class="sign-up-label">
+      Don't have an account?<span class="sign-up-link">Sign up</span>
+    </p>
+    <div class="buttons-container">
+      <div class="apple-login-button">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" class="apple-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"></path>
+        </svg>
+        <span>Log in with Apple</span>
+      </div>
+      <div class="google-login-button">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" x="0px" y="0px" class="google-icon" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
+  c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24
+  c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
+          <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657
+  C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
+          <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36
+  c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
+          <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
+  c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+        </svg>
+        <span>Log in with Google</span>
+      </div>
+    </div>
+  </div>
+    </div>  
+    
+    <div class=" text-center mt-5">  
+        <div class="row">  
+            <div class="col-md-4">  
+                <h5 class="footer-icons">🏃‍♂️Fast Community</h5>  
+                <p>GoodConcept<br>Good poster100%</p>  
+            </div>  
+            <div class="col-md-4">  
+                <h5 class="footer-icons">📞 Phone (Landline)</h5>  
+                <p>+855 884 871 410<br><i class="bi bi-telegram"></i> Telegram 088 487 1410</p>  
+            </div>  
+            <div class="col-md-4">  
+                <h5 class="footer-icons">📍 Our Office Location</h5>  
+                <p>The Interior Design Studio is Phnom Penh city<br>The Roat 6A of Phnom penh</p>  
+            </div>  
+        </div>  
+    </div>
+
+
+    <footer class="footer text-center">  
+        <div class="container">  
+            <h5>Enjoy A GraphicDesigner</h5>  
+            <p>The heart of Designer fo client</p>  
+            <div class="social-links">  
+                <a href="#"><i class="bi bi-facebook mx-2"></i></a>  
+                <a href="#"><i class="bi bi-instagram mx-2"></i></a>  
+                <a href="#"><i class="bi bi-twitter mx-2"></i></a>  
+                <a href="#"><i class="bi bi-telegram mx-2"></i></a>  
+                <a href="#"><i class="fas fa-envelope mx-2"></i></a>  
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>  
+            </div>  
+            <div class="row">  
+                <div class="col">  
+                    <h6>More NT</h6>  
+                    <ul class="list-unstyled">  
+                        <li><a href="#">Media</a></li>  
+                        <li><a href="#">Events</a></li>  
+                        <li><a href="#">Programs</a></li>  
+                        <li><a href="#">Spaces</a></li>  
+                        <li><a href="#">Newsletters</a></li>  
+                        <li><a href="#">Deals</a></li>  
+                        <li><a href="#">Jobs in tech</a></li>  
+                    </ul>  
+                </div>  
+                <div class="col">  
+                    <h6>About NT</h6>  
+                    <ul class="list-unstyled">  
+                        <li><a href="#">Partner with us</a></li>  
+                        <li><a href="#">Jobs</a></li>  
+                        <li><a href="#">Terms & Conditions</a></li>  
+                        <li><a href="#">Cookie Statement</a></li>  
+                        <li><a href="#">Privacy Statement</a></li>  
+                        <li><a href="#">Editorial Policy</a></li>  
+                        <li><a href="#">Masthead</a></li>  
+                    </ul>  
+                </div>  
+            </div>  
+            <p class="mt-4">Could you clarify what you mean? Are you looking for a message to send to a graphic designer or a message as a graphic designer? Let me know, and I'll craft the perfect text for you! 😊</p>  
+            <p style="color: black;">Copyright © 2023—2025, The website of Graphic designer TehTeh DEsigner.</p>  
+        </div>  
+    </footer>  
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>
